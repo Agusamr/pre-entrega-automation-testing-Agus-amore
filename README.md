@@ -31,3 +31,4 @@ Para ejecutar un archivo de prueba específico:
 pytest "ruta\al\archivo.py"
 
 python -m pytest test_login.py
+python -m pytest tests\test_presencia_productos.py -v -s para que muestre los print() en la terminal.
