@@ -1,16 +1,16 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By #esto me va a permitir seleccionar los elementos web, esto es una ruta para acceder a la fcion By
+from selenium.webdriver.common.by import By 
 import time
 
 def test_login_exitoso():
-#creo un variable en la que abriré el navegador
+
     driver = webdriver.Chrome()
 
 
 # Navegar a la página de login
     driver.get("https://www.saucedemo.com/")
-#genero una pausita para que no sea inmediato que se abre y cierra el enlace
-    time.sleep(2) #para que espere un ratito y no haga tan rápido
+
+    time.sleep(2) #pausa para que espere un ratito y no haga tan rápido
 
 #primero localizo los elementos de la web para interactuar con ellos...
     usuario = driver.find_element(By.ID,"user-name")
