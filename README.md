@@ -12,7 +12,7 @@ Localización de elementos mediante diferentes estrategias.
 Validación de estados y resultados esperados.
 Organización de pruebas utilizando Pytest.
 
-Tecnologías utilizadas
+## Tecnologías utilizadas
 Python — Lenguaje de programación utilizado para desarrollar las pruebas.
 Selenium WebDriver — Herramienta utilizada para automatizar la interacción con el navegador.
 Pytest — Framework utilizado para estructurar y ejecutar las pruebas automatizadas.
@@ -20,11 +20,11 @@ Git — Sistema de control de versiones.
 GitHub — Plataforma utilizada para almacenar y compartir el proyecto.
 
 
-# Instalar las dependencias:
+## Instalar las dependencias:
 
 pip install selenium pytest
 
-# Ejecutar las pruebas:
+## Ejecutar las pruebas:
 
 Para ejecutar un archivo de prueba específico:
 
